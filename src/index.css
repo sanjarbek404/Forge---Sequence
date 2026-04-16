@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #F4F1EA;
+  --color-ink: #1A1A1A;
+  --color-accent: #3A4D39;
+  --color-editorial-border: rgba(26, 26, 26, 0.15);
+  
+  --font-serif: "Georgia", serif;
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-ink font-sans;
+  }
+}
